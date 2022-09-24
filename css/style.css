@@ -84,7 +84,7 @@ header a{
     justify-content: center ;
     text-align: center;
     height: 90vh;
-    background-image: var(--gradiente), url("/media/balanza.jpg");
+    background-image: var(--gradiente), url("../media/balanza.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
