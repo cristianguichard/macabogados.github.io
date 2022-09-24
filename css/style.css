@@ -274,7 +274,7 @@ header a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--gradiente), url(/media/manos.jpg);
+    background: var(--gradiente), url(../media/manos.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
