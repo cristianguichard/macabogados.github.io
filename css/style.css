@@ -193,7 +193,7 @@ header a{
     background-color: aqua;
     height: 400px;
     margin: 0 0px 40px 0;
-    background-image: var(--gradiente),url(..../media/somos_3.jpg);
+    background-image: var(--gradiente),url(../media/somos_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -464,7 +464,7 @@ header a{
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--color-principal);
-    background:var(--gradiente), url(/media/hammer-719066_1920.jpeg);
+    background:var(--gradiente), url(../media/hammer-719066_1920.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
