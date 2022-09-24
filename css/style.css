@@ -84,7 +84,7 @@ header a{
     justify-content: center ;
     text-align: center;
     height: 90vh;
-    background-image: var(--gradiente), url("../media/balanza.jpg");
+    background-image: var(--gradiente), url(../media/balanza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -164,22 +164,22 @@ header a{
     font-size: 14px;
 }
 .card-1{
-    background-image: url(/media/foto-abogado-civilista-negociacion-unir.jpeg);
+    background-image: url(../media/foto-abogado-civilista-negociacion-unir.jpeg);
     background-position: center;
     background-size: cover;
 }
 .card-2{
-    background-image: url(/media/abogado-penalista.jpeg);
+    background-image: url(../media/abogado-penalista.jpeg);
     background-position: center center;
     background-size: cover;
 }
 .card-3{
-    background-image: url(/media/abogado-laboral.jpeg);
+    background-image: url(../media/abogado-laboral.jpeg);
     background-position: center center;
     background-size: cover;
 }
 .card-4{
-   background-image: url(/media/abogado-familia.jpeg);
+   background-image: url(../media/abogado-familia.jpeg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -193,7 +193,7 @@ header a{
     background-color: aqua;
     height: 400px;
     margin: 0 0px 40px 0;
-    background-image: var(--gradiente),url(/media/somos_3.jpg);
+    background-image: var(--gradiente),url(..../media/somos_3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -235,7 +235,7 @@ header a{
     
 }
 .team-1{
-    background-image: url(/media/caro_3.jpg);
+    background-image: url(../media/caro_3.jpg);
     border-radius: 20px 20px 0 0;
     background-size: cover;
     background-position: center;
@@ -245,7 +245,7 @@ header a{
 
 .team-2{
     border-radius: 20px 20px 0 0;
-    background-image: url(/media/kary_3.jpg);
+    background-image: url(../media/kary_3.jpg);
     background-size: cover;
     background-position: center;
 }
