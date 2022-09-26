@@ -48,21 +48,19 @@ header{
     z-index: 2;
 }
 .container-navbar{
-    width: 90%;
-    height: 70px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+  
 }
 .navbar-logo{
-    height: 50%;
-    margin-left: 40px;
+    height: 0.9rem;
 }
 .navbar-menu{
-    display: flex;
-    justify-items: center;
-    gap:60px;
-   
+    display: flex; 
+    justify-content: center;
 }
 .navbar-menu a{
     color:var(--color-blanco);
@@ -641,4 +639,13 @@ form textarea{
     } 
  
   
+}
+
+@media screen and (max-width:350px){
+    .container-navbar{
+        justify-content: center;
+    }
+    .card-team{
+        margin-right: 0; 
+    }
 }
